@@ -17,4 +17,4 @@ class LivroListSerializer(ModelSerializer):
     capa = CharField(source="capa.url")
     class Meta:
         model = Livro
-        fields = ["id", "titulo", "preco", "capa"]
+        fields = ["id", "titulo", "preco", "capa"] 

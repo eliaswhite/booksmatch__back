@@ -4,4 +4,4 @@ from rest_framework.serializers import ModelSerializer
 class CategoriaSerializer(ModelSerializer):
     class Meta:
         model = Categoria
-        fields = "__all__"
+        fields = "__all__" 

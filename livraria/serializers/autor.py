@@ -4,4 +4,4 @@ from rest_framework.serializers import ModelSerializer
 class AutorSerializer(ModelSerializer):
     class Meta:
         model = Autor
-        fields = "__all__"
+        fields = "__all__" 

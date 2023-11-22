@@ -11,7 +11,7 @@ from livraria.views import CategoriaViewSet, EditoraViewSet, AutorViewSet, Livro
 from usuario.router import router as usuario_router
 
 from uploader.router import router as uploader_router
-
+ 
 
 router = DefaultRouter()
 router.register(r"categorias", CategoriaViewSet)
